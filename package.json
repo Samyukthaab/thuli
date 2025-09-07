@@ -1,0 +1,56 @@
+{
+  "name": "styledna-app",
+  "version": "1.0.0",
+  "description": "StyleDNA - AI-Powered Fashion Style Assessment App",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo build",
+    "build:web": "expo build:web",
+    "eject": "expo eject",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "@reduxjs/toolkit": "^1.9.7",
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-safe-area-context": "4.6.3",
+    "react-native-screens": "~3.22.0",
+    "react-redux": "^8.1.3",
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.72.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.51.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.2.1",
+    "typescript": "^5.1.3"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "fashion",
+    "ai",
+    "style-assessment",
+    "recommendations"
+  ],
+  "author": "StyleDNA Team",
+  "license": "MIT",
+  "private": true
+}
